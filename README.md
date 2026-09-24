@@ -20,6 +20,6 @@ Priserna kommer från [Elpriset just nu](https://www.elprisetjustnu.se/elpris-ap
 
 ## Utveckling och status
 
-`npm ci && npm run build` bygger filen i `dist/`. Denna version är byggd och syntaxkontrollerad men **inte testad på fysisk Shelly**. Kontrollera visat pris mot dagens pris för ditt elområde innan du förlitar dig på färgen. Kontrollera tid, tidszon, internet, DNS och HTTPS om inget pris visas. Den externa pristjänstens tillgänglighet och format kan ändras.
+`npm ci && npm run build` bygger filen i `dist/`. Denna version är byggd och syntaxkontrollerad. Projektägaren har även testat skriptet på en fysisk Shelly och bekräftat att det fungerar. Kontrollera visat pris mot dagens pris för ditt elområde innan du förlitar dig på färgen. Kontrollera tid, tidszon, internet, DNS och HTTPS om inget pris visas. Den externa pristjänstens tillgänglighet och format kan ändras.
 
 Licens: [AGPL-3.0](LICENSE.txt).
